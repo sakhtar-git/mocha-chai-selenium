@@ -1,6 +1,7 @@
 # Mocha Chai UI Test Automation
 
 Excercise - developed in JavaScript, Mocha, Chai, Selenium Webdriver
+https://www.youtube.com/watch?v=7hBhKOo3Z54
 
 ## Getting Started
 These instructions below will help you to set up the test automation to run on your local
