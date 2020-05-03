@@ -20,23 +20,12 @@ describe('Go to the Allergan data labs website', function() {
         assert(title === 'Allergan Data Labs', 'Title was not found as Allergan Data Labs');
     });
 
-    const sleep = (milliseconds) => {
-        return new Promise(resolve => setTimeout(resolve, milliseconds))
-    }
-
-    var mytext = (element) => {
-        var textPromise = element.getText();
-        textPromise.then((text) => console.log("\t"+text));
-    }    
-
     it('Allergan Data Labs is Hiring', async () => {
         let element_jobs = await driver.findElement(By.css(jobs));
         element_jobs.click()
-        //await sleep(5000); 
         let element_e = await driver.findElements(By.css(engr));
         let element_positions = await driver.findElements(By.css(positions));
-        assert.isNotEmpty(element_positions,"There are no open postions");
-        element_positions.forEach(mytext);        
+        assert.isNotEmpty(element_positions,"There are no open postions");      
     });
 
     after(async function(){
