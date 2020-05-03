@@ -1,14 +1,13 @@
 # Mocha Chai UI Test Automation
 
 Excercise - developed in JavaScript, Mocha, Chai, Selenium Webdriver
-https://www.youtube.com/watch?v=7hBhKOo3Z54
+* https://www.youtube.com/watch?v=7hBhKOo3Z54
 
 ## Getting Started
 These instructions below will help you to set up the test automation to run on your local
 
 
 ### Install
-* Sublime/Atom Editor
 * Node https://nodejs.org/en/download/
 * Packages
 	npm mocha chai --save-dev
